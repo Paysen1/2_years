@@ -1,5 +1,5 @@
 body {
-    background-color: pink;
+  background-image: url('./503c1b95f0cf92228d897a2b80c42c5b.jpg');
   }
   .container {
     display: flex;
@@ -9,17 +9,19 @@ body {
     height: 100vh;
   }
   .picture-container {
-    flex: 1; /* Allow the picture container to grow and fill remaining space */
+    height: 70vh; /* Set a fixed height for the image container */
     border: 5px solid black;
     padding: 20px;
     border-radius: 10px;
     background-color: white;
+    margin-bottom: 20px;
     display: flex;
     justify-content: center; /* Center the image horizontally */
     align-items: center; /* Center the image vertically */
   }
   
   .title {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 2rem;
     font-weight: bold;
     color: rgb(0, 0, 0);
@@ -28,14 +30,15 @@ body {
   .image-wrapper {
     max-width: 100%;
     max-height: 100%;
+    overflow: hidden;
   }
 
   #random-picture {
-    width: auto;
     max-width: 100%; /* Cap image's maximum width */
     max-height: 100%; /* Cap image's maximum height */
+    object-fit: contain;
   }
 
   #randomize-button {
-    margin-top: 20px; /* Add spacing between image and button */
+    margin-top: 1px; /* Add spacing between image and button */
   }
