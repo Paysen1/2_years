@@ -1,0 +1,22 @@
+body {
+    background-color: pink;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  .picture-container {
+    border: 5px solid black;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white;
+    margin-bottom: 20px;
+  }
+  .title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+  }
